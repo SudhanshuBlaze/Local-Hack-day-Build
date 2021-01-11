@@ -10,3 +10,8 @@ h2{
     text-align: center;
     margin-top: 15%;
 }
+
+input{
+    position: absolute;
+    margin-left: 47%;
+}
