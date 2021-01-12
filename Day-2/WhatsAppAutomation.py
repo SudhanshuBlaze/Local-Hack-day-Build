@@ -4,8 +4,8 @@ import pywhatkit
 Names = ["Aaron","Robin","Tom"] #Contact name
 Number = ["+9191xxx","+91912xxx","+1-21xxx"] #Contact Number on WhatsApp
 n = len(Names)
-H = 3
-M = 22 % 60
+H = 3 #Hour in 00-24 Hour Format 
+M = 22 % 60 #Minutes in 0 - 60 Minute Format
 for i in range(n):
 	text = "All The Best " + Names[i]
 	pywhatkit.sendwhatmsg(Number[i],text,H,M)
